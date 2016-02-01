@@ -1,0 +1,79 @@
+body {
+    margin: 40px;
+}
+
+pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    width: 830px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.flare-input {
+    margin-bottom: 5px;
+}
+
+input:invalid {
+    background-color: #ff5050;
+}
+
+.flare-input-number, .flare-input-int-number {
+    width: 80px;
+}
+
+input[type="range"] {
+    width: 150px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+}
+
+table {
+    width: 300px;
+    height: 300px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 11px;
+}
+
+#output0 > div {
+    display: inline-block;
+    padding: 20px;
+    color: black;
+    text-shadow: 0px 0px 4px white;
+    font-family: courier;
+}
+
+#output14 > div {
+    display: inline-block;
+    padding: 20px;
+    color: black;
+    text-shadow: 0px 0px 4px white;
+    font-family: courier;
+}
+
+#controls15 > div {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#output16 > div {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ccc;
+}
+
+#output16 > div.on {
+    background-color: #ebdd13;
+}
