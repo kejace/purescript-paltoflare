@@ -16,12 +16,15 @@
     "url": "git://github.com/kejace/purescript-paltoflare.git"
   },
   "dependencies": {
-    "purescript-dom": "^0.2.6",
-    "purescript-signal": "^4.2.0",
-    "purescript-foldable-traversable": "^0.4.2",
-    "purescript-canvas": "^0.3.4",
-    "purescript-drawing": "^0.3.7",
-    "purescript-smolder": "^3.0.1",
+    "purescript-foldable-traversable": "^3.0.0",
+    "purescript-dom": "^4.1.0",
+    "purescript-signal": "^9.0.0",
+    "purescript-canvas": "^3.0.0",
+    "purescript-drawing": "^3.0.0",
+    "purescript-smolder": "^7.0.0",
+    "purescript-nonempty": "^4.0.0",
+    "purescript-datetime": "^3.0.0",
+    "purescript-flare": "https://github.com/kejace/purescript-flare.git",
     "purescript-palto": "https://github.com/kejace/purescript-palto.git"
   }
 }
